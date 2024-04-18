@@ -222,7 +222,7 @@ transform: translateX(0);
     position: absolute;
     z-index: 999;
     width: 63%;
-    top: 63%;
+    top: 70%;
     right: 48%;
 }
 }
@@ -235,8 +235,6 @@ background-color: var(--yellow-color);
     outline: none;
     border: none;
     border-bottom: 1px solid white;
-  
-
 }
 .subscribe input[type=submit]{
 background-color: var(--dark-color);
@@ -248,17 +246,38 @@ font-weight: bold;
 }
 /* End Our Blog*/
 
+/* Start  footer*/
+.footer{
+  background-color: var(--dark-color);
+}
+.container{
+  font-size: 1.2rem;
+}
 
+.copyright > span{
+color: var(--green-color);
+}
+.copyright .symbol{
+  font-size: 90px;
+position: relative;
+top: 25px;
+}
+.copyright div span{
+  color: var(--yellow-color);
+}
+.twitter{
+background-color:#14171a ;
 
+}
+.github{
+background-color:#6e5494 ;
 
-
-/* Start  */
-/* End */
-/* Start  */
-/* End */
-/* Start  */
-/* End */
-/* Start  */
-/* End */
-/* Start  */
-/* End */
+}
+.youtube{
+background-color: #ff0000;
+  
+}
+.facebook{
+background-color: #1877f2;
+}
+/* End footer*/
